@@ -1,3 +1,11 @@
 h1 {
   font-weight: 200;
 }
+
+.container {
+  width: calc(100% - 100px);
+  max-width: 500px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
