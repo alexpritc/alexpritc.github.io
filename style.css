@@ -17,16 +17,13 @@ h1 {
 
 .bio-container {
   width: 700px;
-  margin-top: 100px;
-  margin-left: 50px;
+  margin-top: 25px;
+  margin-left: 0px;
   margin-right: 50px;
-  padding-left: 100px;
+  padding-left: 0px;
 }
 
-.link-list {
-      width: 50px;
-      margin-top: 50px;
-      text-align: left;
-      list-style-type: none;
-      -webkit-padding-start: 0px;
+.col-3 {
+      text-align: center;
+
 }
