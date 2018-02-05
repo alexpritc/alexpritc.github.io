@@ -10,8 +10,23 @@ h1 {
 
 .container {
   width: calc(100% - 100px);
-  max-width: 500px;
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bio-container {
+  width: 700px;
+  margin-top: 100px;
   margin-left: 50px;
   margin-right: 50px;
+  padding-left: 100px;
+}
+
+.link-list {
+      width: 50px;
+      margin-top: 50px;
+      text-align: left;
+      list-style-type: none;
+      -webkit-padding-start: 0px;
 }
