@@ -2,7 +2,8 @@
 
 body {
   font-family: 'Cormorant Garamond', serif;
-  font-weight: 150;
+  font-weight: 250;
+  color: #000000;
 }
 
 h1 {
@@ -52,6 +53,7 @@ h1 {
   }
 
 .links-bar {
-  text-align: center;
-    list-style-type: none;
+  padding-left: 40px;
+  text-align: left;
+  list-style-type: none;
 }
