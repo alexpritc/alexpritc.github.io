@@ -8,7 +8,7 @@ body {
 
 h1 {
   font-weight: 250;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .para-current {
@@ -23,16 +23,17 @@ h1 {
 }
 
 .bio-container {
-  width: 700px;
+  width: 750px;
   margin-top: 25px;
   margin-left: 0px;
   margin-right: 50px;
   padding-left: 0px;
+  font-size: 20px;
 }
 
 .col-2 {
       text-align: center;
-      padding-top: 10px;
+      padding-top: 0px;
       padding-right: 0px;
       border-radius: 50px;
 }
@@ -44,6 +45,7 @@ h1 {
 
 .content-container {
   padding-left: 40px;
+  font-size: 22px;
 }
 
 .tab-content {
@@ -62,8 +64,9 @@ h1 {
   }
 
 .links-bar {
-  padding-top: 5px;
-  padding-left: 40px;
+  padding-top: 25px;
+  padding-left: 25px;
   text-align: left;
+  font-size: 16px;
   list-style-type: none;
 }
