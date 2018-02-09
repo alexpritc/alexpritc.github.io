@@ -11,8 +11,12 @@ h1 {
   font-size: 40px;
 }
 
-.para-current {
-  font-weight: bold;
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 20px;
 }
 
 .row {
@@ -23,12 +27,12 @@ h1 {
 }
 
 .bio-container {
-  width: 750px;
+  width: 650px;
   margin-top: 25px;
   margin-left: 0px;
   margin-right: 50px;
   padding-left: 0px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .col-2 {
@@ -44,11 +48,15 @@ h1 {
 }
 
 .content-container {
-  padding-left: 40px;
-  font-size: 22px;
+  padding-left: 75px;
+}
+
+.nav-tabs {
+  font-size: 24px;
 }
 
 .tab-content {
+  width: 850px;
   padding-left: 15px;
 }
 
@@ -61,6 +69,9 @@ h1 {
     border-radius: 50px;
     /*border: 4px #a7a7a7 solid;*/
     overflow: hidden;
+  }
+  .borderofdeath-image {
+    padding-left: 0px;
   }
 
 .links-bar {
