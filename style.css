@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Roboto', serif;
   font-weight: 250;
   color: #000000;
 }
