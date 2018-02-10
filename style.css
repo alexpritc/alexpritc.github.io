@@ -2,21 +2,39 @@
 
 body {
   font-family: 'Roboto', serif;
-  font-weight: 250;
+  font-weight: lighter;
   color: #000000;
 }
 
 h1 {
-  font-weight: 250;
-  font-size: 40px;
+  font-weight: 300;
+  font-size: 35px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 850;
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px
+}
+
+a {
+    color: #a9a9a9;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a9a9a9;
+    border-bottom: 1px dotted #a9a9a9;
+    text-decoration: none;
 }
 
 .row {
@@ -32,7 +50,7 @@ p {
   margin-left: 0px;
   margin-right: 50px;
   padding-left: 0px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .col-2 {
@@ -52,7 +70,7 @@ p {
 }
 
 .nav-tabs {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .tab-content {
@@ -70,7 +88,7 @@ p {
     /*border: 4px #a7a7a7 solid;*/
     overflow: hidden;
   }
-  .borderofdeath-image {
+  .preview-image {
     padding-left: 0px;
   }
 
@@ -78,6 +96,6 @@ p {
   padding-top: 25px;
   padding-left: 25px;
   text-align: left;
-  font-size: 16px;
+  font-size: 14px;
   list-style-type: none;
 }
