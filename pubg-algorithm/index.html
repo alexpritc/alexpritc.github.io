@@ -49,13 +49,11 @@
                   </div>
 
                   <h3>Research and Abstraction</h3>
-                  <p>Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. </p>
+                  <p>The computational method known as Abstraction played an important part in this project as I planned to create a simulation, rather than an accurate version, of <em>PlayerUnknown's Battlegrounds</em> (which would be a mammoth task and an extremely unrealistic goal - not to mention Copyright laws prohibit it).</p>
+                  <p>I looked at <em>PlayerUnknown's Battlegrounds</em> as a reference-model and determined that the most important features of gameplay (with regards to the alternative border algorithm I wanted to create) were: <br> 1. The Players' initial spawning locations. <br> 2. The number of players. <br> 3. The border's initial spawning location. <br> 4. The border radius. <br> This left out key features of <em>PlayerUnknown's Battlegrounds</em> that weren't necessary or were too complex to implement. For example, the details in the terrain or the gradual decline in the border's radius.</p>
 
                   <hr>
                   <br>
-
-                  <h3>My Solution</h3>
-                  <p>I decided to create a baisc prototype of the border mechanic.</p>
 
                   <div class="preview-image">
                     <img src="../images/preview/pubg-border-preview.gif" style="max-width: 100%;">
@@ -63,6 +61,10 @@
                     <br>
                     <br>
                   </div>
+
+                  <h3>My Solution</h3>
+                  <p>I decided to create a basic prototype of the border mechanic. This simulation has three stages: it begins with an empty terrain, then on which 50 'Players' spawn randomly on. I believe this apparent random-spread of 'Players' to be acceptable and the best representation of Players' positions in-game. Then a border spawns on the terrain (its' X and Z coordinates being the average of the combined X and Z coordinates of the total Players).</p>
+
 
                   <hr>
                   <br>
@@ -74,19 +76,23 @@
                   <hr>
                   <br>
 
-                  <h3>Feedback and Iterative Changes</h3>
-                  <p>Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. </p>
+                  <h3>Feedback</h3>
+                  <p>I demonstrated my simulation to a small group of indivduals, some of which had played <em>PlayerUnknown's Battlegrounds</em> and some of which hadn't. I am pleased to report that the majority believed this was a better alternative to the game's "Blue Border of Death".</p>
+                  <p>Nevertheless, there are certainly steps I could take to improve my solution to make this simulation more accurate: <br> 1. I should not have relied on 'random' spawning positions for 'Players'. Actual-Players' starting positions aren't random as the actual game-terrain is far more detailed, containing towns and areas that provide better loot (that Players will tend to head towards). <br> 2. I could develop this solution further through adding more stages that represent the border decreasing in size after a few seconds, removing the 'Players' outside the circle and repeat this until all-but-one Player remains (the "Winner Winner Chicken Dinner").</p>
 
                   <hr>
                   <br>
 
                   <h3>Notes</h3>
-                  <p>Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. </p>
+                  <p>This smaller project has taught me the importance of Abstraction in deciding which elements are necessary for the adequate function of the solution, and which can be removed to keep it relevant to the specified requirements.</p>
 
                   <hr>
                   <br>
 
+                  <br>
                   <a href="#top">Back to Top ↑</a>
+                  <br>
+                  <a href="http://apritc.com">← Back to Main Page</a>
 
               </div>
 
