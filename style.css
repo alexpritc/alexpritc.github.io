@@ -99,3 +99,9 @@ a:hover {
   font-size: 14px;
   list-style-type: none;
 }
+
+.source {
+  font-size: 14px;
+  font-style: italic;
+  color: #a7a7a7;
+}
