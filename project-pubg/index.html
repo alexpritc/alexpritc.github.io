@@ -32,11 +32,16 @@
             <div class="content-container">
 
               <div class="project-PUBG">
-                  <h2><strong>"Blue Border of Death" Alternative (PlayerUnknown's Battlegrounds)</strong></h2>
+                  <h2>"Blue Border of Death" Alternative (PlayerUnknown's Battlegrounds)</h2>
                   <br>
                   <h3>Problem Idenfitication</h3>
                   <p>As someone who only plays PlayerUnknown's Battlegrounds occassionaly, and I'm sure other less dedicated players can relate, I could not work out how the map-border worked. <a href="https://www.reddit.com/r/PUBG/comments/7pbhmw/how_does_the_blue_border_of_death_work/" target="_blank" style="color: #a9a9a9">I asked frequent Players of <em>PlayerUnknown's Battlegrounds</em></a> how they think the initial placement of the (appropriately named) "Blue Border of Death" is decided. Those responses, in addition to my own research, suggested most Players believe that the location is 'random'. From a Game Dev's perspective, I believed this to be not effective and that I could create a better alternative.</p>
-                  <p>I decided on two possible variations: <br>  i. The border's position equals the average position of the Players. <br> ii. The border's position equals the average position of the absence of Players. <br> <br> Both options could be potentionally implemented in different in-game modes. Variation i. would reveal where the majority of Players are concentrated on the map to induce more fights, whereas variation ii. would panic Players as they would need to move quickly into a scarcely populated area of the map in order to stay alive. <br> <br> However, the border's X and Z coordinates being the average of the combined X and Z coordinates of the total Players makes the most logical sense, and therefore is the varition I chose to implement myself.</p>
+                  <p>I decided on two possible variations:</p>
+                    <ul style="list-style-type: lower-roman;">
+                      <li>The border's position equals the average position of the Players.</li>
+                      <li>The border's position equals the average position of the absence of Players.</li>
+                    </ul>
+                  <p>Both options could be potentionally implemented in different in-game modes. Variation <em>i.</em> would reveal where the majority of Players are concentrated on the map to induce more fights, whereas variation <em>ii.</em> would panic Players as they would need to move quickly into a scarcely populated area of the map in order to stay alive. <br> <br> However, the border's X and Z coordinates being the average of the combined X and Z coordinates of the total Players makes the most logical sense, and therefore is the varition I chose to implement myself.</p>
 
                   <hr>
                   <br>
@@ -50,7 +55,15 @@
 
                   <h3>Research and Abstraction</h3>
                   <p>The computational method known as Abstraction played an important part in this project as I planned to create a simulation, rather than an accurate version, of <em>PlayerUnknown's Battlegrounds</em> (which would be a mammoth task and an extremely unrealistic goal - not to mention Copyright laws prohibit it).</p>
-                  <p>I looked at <em>PlayerUnknown's Battlegrounds</em> as a reference-model and determined that the most important features of gameplay (with regards to the alternative border algorithm I wanted to create) were: <br> 1. The Players' initial spawning locations. <br> 2. The number of players. <br> 3. The border's initial spawning location. <br> 4. The border radius. <br> This left out key features of <em>PlayerUnknown's Battlegrounds</em> that weren't necessary or were too complex to implement. For example, the details in the terrain or the gradual decline in the border's radius.</p>
+                  <p>I looked at <em>PlayerUnknown's Battlegrounds</em> as a reference-model and determined that the most important features of gameplay (with regards to the alternative border algorithm I wanted to create) were:</p>
+                  <ol>
+                    <li>The Players' initial spawning locations.</li>
+                    <li>The number of players.</li>
+                    <li>The border's initial spawning location.</li>
+                    <li>The border radius.</li>
+                  </ol>
+
+                  <p>This left out key features of <em>PlayerUnknown's Battlegrounds</em> that weren't necessary or were too complex to implement. For example, the details in the terrain or the gradual decline in the border's radius.</p>
 
                   <hr>
                   <br>
