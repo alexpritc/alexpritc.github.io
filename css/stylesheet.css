@@ -188,3 +188,14 @@ ol, ul {
             vertical-align: top;
             width: inherit;
         }
+
+
+
+/* If screen is less than 680 pixels, change column layout */
+
+@media (max-width: 680px) {
+
+    #main {
+        max-width: 350px;
+    }
+}
