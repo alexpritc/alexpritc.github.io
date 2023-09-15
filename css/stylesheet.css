@@ -36,7 +36,7 @@ footer, header, nav, section {
     --site-language-flex-alignment: flex-start;
     --site-language-indent-left: 1;
     --site-language-indent-right: 0;
-    --viewport-height: 90vh;
+    --viewport-height: 100vh;
 }
 
 #main {
