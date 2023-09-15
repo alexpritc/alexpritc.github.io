@@ -18,6 +18,10 @@ body {
     overflow-x: hidden;
     word-wrap: break-word;
     background-color: #FEFEFE;
+    background-image: url('https://img.itch.zone/aW1nLzk5OTk4MTAucG5n/original/TM958p.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 footer, header, nav, section {
