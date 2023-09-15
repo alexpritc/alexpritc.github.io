@@ -25,6 +25,16 @@ footer, header, nav, section {
 }
 
 
+:root {
+    --background-height: 100vh;
+    --site-language-alignment: left;
+    --site-language-direction: ltr;
+    --site-language-flex-alignment: flex-start;
+    --site-language-indent-left: 1;
+    --site-language-indent-right: 0;
+    --viewport-height: 90vh;
+}
+
 #main {
     --alignment: center;
     --flex-alignment: center;
@@ -39,15 +49,41 @@ footer, header, nav, section {
     flex-grow: 0;
     flex-shrink: 0;
     justify-content: center;
-    max-width: 100%;
     position: relative;
     text-align: var(--alignment);
     z-index: 1;
     background-color: #FFFFFF;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    max-width: 600px;
 }
 
-.container {
+#wrapper {
+    -webkit-overflow-scrolling: touch;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: var(--viewport-height);
+    overflow: hidden;
     position: relative;
+    z-index: 2;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+
+
+/* Containers */
+container {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+}
+
+#container.columns {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 
@@ -81,12 +117,25 @@ h1, h2, h3, p {
         font-size: 0.625em;
     }
 
+    h1 span.p, h2 span.p, h3 span.p, p span.p {
+        display: block;
+        position: relative;
+    }
+
+    p.rg-text span.p:nth-child(n + 2) {
+        margin-top: 0.5rem;
+    }
+
+
 strong {
     color: inherit;
     font-weight: bolder;
 }
 
-
+br {
+    display: block;
+    margin: 20px 0;
+}
 
 /* Links */
 a {
@@ -119,7 +168,7 @@ ol, ul {
 .image {
     display: block;
     line-height: 0;
-    max-width: 33%;
+    max-width: 100%;
     position: relative;
 }
 
