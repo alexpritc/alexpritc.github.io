@@ -1,0 +1,141 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, strong, ol, ul, li, footer, header, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html {
+    font-size: 18pt;
+}
+
+body {
+    line-height: 1.0;
+    min-height: var(--viewport-height);
+    min-width: 320px;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    background-color: #FEFEFE;
+}
+
+footer, header, nav, section {
+    display: block;
+}
+
+
+#main {
+    --alignment: center;
+    --flex-alignment: center;
+    --indent-left: 1;
+    --indent-right: 1;
+    --border-radius-tl: 0;
+    --border-radius-tr: 0;
+    --border-radius-br: 0;
+    --border-radius-bl: 0;
+    align-items: center;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: center;
+    max-width: 100%;
+    position: relative;
+    text-align: var(--alignment);
+    z-index: 1;
+    background-color: #FFFFFF;
+}
+
+.container {
+    position: relative;
+}
+
+
+
+/* Text */
+h1, h2, h3, p {
+    direction: var(--site-language-direction);
+    position: relative;
+    color: #000000;
+    text-align: left;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+    h1.lg-text, h2.lg-text, h3.lg-text, p.lg-text {
+        font-size: 2em;
+    }
+
+    h1.md-text, h2.md-text, h3.md-text, p.md-text {
+        font-size: 0.875em;
+    }
+
+    h1.rg-text, h2.rg-text, h3.rg-text, p.rg-text {
+        color: #707070;
+        font-size: 0.75em;
+    }
+
+    h1.sm-text, h2.sm-text, h3.sm-text, p.sm-text {
+        color: #707070;
+        font-size: 0.625em;
+    }
+
+strong {
+    color: inherit;
+    font-weight: bolder;
+}
+
+
+
+/* Links */
+a {
+    color: #D78D1F;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+
+/* Lists */
+ol, ul {
+    list-style: none;
+}
+
+.list {
+    display: inline-block;
+    max-width: 100%;
+    text-align: var(--site-language-alignment);
+    vertical-align: middle;
+}
+
+
+
+/* Images */
+.image {
+    display: block;
+    line-height: 0;
+    max-width: 33%;
+    position: relative;
+}
+
+    .image .frame {
+        -webkit-backface-visibility: hidden;
+        -webkit-transform: translate3d(0, 0, 0);
+        display: inline-block;
+        max-width: 100%;
+        overflow: hidden;
+        vertical-align: top;
+        width: 100%;
+    }
+
+        .image .frame img {
+            border-radius: 0 !important;
+            max-width: 100%;
+            vertical-align: top;
+            width: inherit;
+        }
