@@ -199,7 +199,11 @@ ol, ul {
 
 @media (max-width: 680px) {
 
+    html {
+        font-size: 12pt;
+    }
+
     #main {
-        max-width: 350px;
+        max-width: 500px;
     }
 }
