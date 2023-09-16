@@ -10,15 +10,23 @@
     <link href="./css/stylesheet.css" rel="stylesheet" type="text/css" />
 
     <script type='text/javascript'>
-        function ToggleElementByID(id) {
-            var x = document.getElementById(id);
-            if (x.style.display == 'none') {
-                x.style.display = 'block';
-            } else {
-                x.style.display = 'none';
+        window.onload = function () {
+            document.getElementById('about-section').style.display = 'none';
+        };
+
+        function ToggleElementByID(hide, show) {
+            var toggleOff = document.getElementById(hide);
+            if (toggleOff.style.display != 'none') {
+                toggleOff.style.display = 'none';
+            }
+
+            var toggleOn = document.getElementById(show);
+            if (toggleOn.style.display == 'none') {
+                toggleOn.style.display = 'block';
             }
         }
     </script>
+
 </head>
 <body>
     <div id="wrapper">
@@ -60,11 +68,13 @@
                             </p>
                         </div>
                     </div>
+                    <button onclick="ToggleElementByID('home-section', 'about-section')">About me</button>
                 </div>
             </section>
-            <!--<section id="about-section">
-                <button onclick="ToggleElementByID('home-section')">Click me</button>
-            </section>-->
+            <section id="about-section">
+                <p id="content" class="rg-text">hello world</p>
+                <button onclick="ToggleElementByID('about-section', 'home-section')">Back to home</button>
+            </section>
         </div>
     </div>
 </body>
